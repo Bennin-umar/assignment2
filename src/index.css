@@ -1,0 +1,42 @@
+main{
+  background-size: cover;
+  height: 90vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blueviolet;
+}
+nav #logo img {
+  height: 100px;
+  width: auto;
+}
+nav ul{
+  display: flex;
+  
+}
+nav ul li {
+  margin: 5px;
+  list-style: none;
+}
+#form1{
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: blanchedalmond;
+}
+#form1 form input,textarea{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+footer{
+  background-color: teal;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  height: 20vh;
+  margin: 5px;
+}
